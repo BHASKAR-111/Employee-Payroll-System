@@ -59,7 +59,7 @@ class PartTimeEmployee extends Employee{
 //ArrayList<Employee> employeeList=new ArrayList<>();
 
  class PayrollSystem{
-    private ArrayList<Employee> employeeList= new ArrayList<>();
+    private ArrayList<Employee> employeeList;
 
     public PayrollSystem(){
         employeeList =new ArrayList<>();
